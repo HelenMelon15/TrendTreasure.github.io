@@ -1,0 +1,373 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #1c1c1c;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background: #007bff;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background: #ff6347; /* Tomato color on hover */
+    transform: translateY(-3px);
+}
+
+/* Home Page */
+#home {
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* About Us Page */
+#about {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    color: white;
+    padding: 50px 20px;
+}
+
+#about h2 {
+    margin-top: 40px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#about p {
+    color: white;
+    font-size: 1.1rem;
+}
+
+/* Gallery Section for Discover and Buy Items */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.gallery .item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.gallery .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.gallery .item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.gallery .item p {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: #666;
+}
+
+.gallery .item span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.gallery .item a {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.gallery .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: #f9f9f9;
+}
+
+.gallery .item a:hover {
+    background: #ff6347; /* Tomato color on hover */
+    transform: translateY(-2px);
+}
+
+/* Hover Effects on Items */
+.gallery .item:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Sell Items Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form select, form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 12px 20px;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+/* Contact Us Page */
+#contact {
+    background: linear-gradient(135deg, #ff1493, #ff69b4);
+    color: white;
+    padding: 50px 20px;
+}
+
+#contact form input, #contact form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact form button {
+    background: #17a2b8;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact form button:hover {
+    background: #138496;
+}
+
+/* Footer Styling */
+footer {
+    background: #1c1c1c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    header nav ul {
+        text-align: center;
+    }
+    
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Cart Page Styling */
+#cart {
+    background: linear-gradient(135deg, #ff4500, #ff6347);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+#cart h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#cart table thead {
+    background: #ff6347;
+    color: #fff;
+}
+
+#cart table th,
+#cart table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart table tr:last-child td {
+    border-bottom: none;
+}
+
+#cart table tbody tr:hover {
+    background: #f9f9f9;
+    transition: background 0.3s ease;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.cart-summary p {
+    margin: 0.5rem 0;
+}
+
+#cart form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+#cart form h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#cart form label {
+    font-weight: bold;
+    color: #333;
+}
+
+#cart form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cart form button {
+    padding: 12px 20px;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+#cart form button:hover {
+    background: #218838;
+}
