@@ -1,3 +1,4 @@
+#trendTreasure Introduction
 TrendTreasure is an online marketplace designed for enthusiasts to discover, buy, and sell a wide range of collectibles, jewelry, sneakers, and trading cards. The platform connects sellers and buyers in a secure, user-friendly environment, providing an easy way for individuals to engage with items they are passionate about. Here's a breakdown of its core features:
 
 User-Friendly Marketplace: TrendTreasure is designed to allow users to seamlessly browse and search for items, whether they're looking for rare sneakers, valuable jewelry, or collectibles like trading cards.
